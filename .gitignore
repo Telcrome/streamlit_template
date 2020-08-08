@@ -1,0 +1,23 @@
+.ipynb_checkpoints
+*.pyc
+.ropeproject
+data
+vsc/node_modules
+vsc/out
+
+# Documentation
+doc_source/_build
+build
+
+# PyCharm
+workspace.xml
+
+# Project
+envs
+tb
+docs
+logs
+
+# PyPi
+dist
+*.egg-info
