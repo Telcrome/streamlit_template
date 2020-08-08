@@ -1,8 +1,3 @@
-# Python Project streamlit_template
+# Minimal Template for Streamlit Debugging
 
-You may safely overwrite the content of this file.
-
-## Template Description
-
-- Simple packaging
-- Docs using Sphinx
+Demonstates how to use Streamlit with VSCode for rapid programming.

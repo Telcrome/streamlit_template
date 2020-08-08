@@ -2,8 +2,6 @@ import os
 import click
 import streamlit.cli
 
-from st_demo.logic import fancy_function
-
 
 @click.group()
 def main():
@@ -11,11 +9,6 @@ def main():
     Main entry point for cli tools
     """
     pass
-
-
-@main.command(name='run')
-def main_run():
-    print(f"Example function call: {fancy_function()}")
 
 
 @main.command(name='gui')

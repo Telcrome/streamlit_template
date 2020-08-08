@@ -15,17 +15,6 @@
             }
         },
         {
-            "name": "Cli run",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/st_demo/cli.py",
-            "args": ["run"],
-            "console": "integratedTerminal",
-            "env": {
-                "PYTHONPATH": "."
-            }
-        },
-        {
             "name": "Cli gui",
             "type": "python",
             "request": "launch",

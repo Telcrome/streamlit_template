@@ -5,13 +5,6 @@ data
 vsc/node_modules
 vsc/out
 
-# Documentation
-doc_source/_build
-build
-
-# PyCharm
-workspace.xml
-
 # Project
 envs
 tb
