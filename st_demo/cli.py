@@ -14,7 +14,7 @@ def main():
 @main.command(name='gui')
 def main_gui():
     dirname = os.path.dirname(__file__)
-    filename = os.path.join(dirname, 'ui.py')
+    filename = os.path.join(dirname, 'gui.py')
     args = []
     streamlit.cli._main_run(filename, args)
 

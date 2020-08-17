@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "Cli ui",
+            "name": "Cli gui",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/st_demo/cli.py",
