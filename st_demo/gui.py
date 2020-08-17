@@ -3,6 +3,10 @@ import streamlit as st
 import skimage.data as skdata
 import time
 
+import st_demo.lib as my_lib
+
+st.write(my_lib.f())
+
 img = skdata.astronaut()
 
 arr = np.random.random(5)
